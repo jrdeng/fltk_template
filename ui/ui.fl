@@ -1,0 +1,22 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0400
+header_name {.h}
+code_name {.cxx}
+class UserInterface {open
+} {
+  Function {make_window()} {open
+  } {
+    Fl_Window {} {
+      label {Hello 你好} open selected
+      xywh {944 207 640 480} type Double visible
+    } {
+      Fl_Button button {
+        label {Click 点击}
+        xywh {284 227 72 25}
+      }
+      Fl_Text_Display text {
+        xywh {295 110 50 30}
+      }
+    }
+  }
+}
